@@ -5,6 +5,7 @@ import {Education} from './Steps/Education';
 import { About } from './Steps/About';
 import { Confirm } from './Steps/Confirm';
 import { Stepper } from './Steps/Stepper';
+//import "./App.css";
 
  export const App = ()=> {
   return (
