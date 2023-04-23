@@ -1,10 +1,5 @@
 .App {
-  position: relative;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;/* Set the height of the container to full screen height */
 }
 
 .App-logo {

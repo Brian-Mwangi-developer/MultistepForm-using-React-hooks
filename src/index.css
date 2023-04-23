@@ -1,5 +1,4 @@
 
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,12 +6,99 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0 24px;
+  width:600px;
+  margin: 0 auto;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 600px;
+}
+.error {
+  display: flex;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: .875em;
+  color: #dc3545;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.stepper {
+  display: flex;
+  padding: 24px;
+  width: 100%;
+}
+.stepper ol {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+form {
+  width: 100%;
+}
+label {
+  display: flex;
+  text-align: left;
+
+}
+.submit-form {
+  display: flex;
+  margin: 24px 0 auto 0;
+}
+a.active {
+  color:red;
+}
+.section-row {
+  display: flex;
+  width: 100%;
+}
+.section-row div{
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.section-row div:first-child {
+  width: 50%;
+}
+
+.section-row div:last-child {
+  width: 50%;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+}
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.submit-form {
+  display: flex;
+  margin: 24px 0 auto 0;
+}
+.btn-secondary {
+  position: absolute;
+  right: 500px;
+  display: block;
+  text-align: center;
 }
